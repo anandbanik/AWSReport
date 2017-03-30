@@ -17,7 +17,7 @@ public class Ec2InstanceDaoImpl implements Ec2InstanceDao {
 
 	
 	private static final Logger logger = LoggerFactory.getLogger(Ec2InstanceDaoImpl.class);
-	private static final String PERSISTENCE_UNIT_NAME = "Ec2Instance";
+	private static final String PERSISTENCE_UNIT_NAME = "AWSReport";
     private static EntityManagerFactory factory;
     EntityManager em;
 	
